@@ -1,0 +1,97 @@
+# Write a Python program to remove duplicates from a list.
+# def dup(r):
+#     res=[]
+#     for x in r:
+#         if x not in res:
+#             res.append(x)
+#     return res        
+# if __name__ == '__main__':
+#     r =[1,2,2,3,4,6,7,8,7,8,3,4]
+#     print(dup(r))
+
+# Write a Python program to concatenate two lists
+# def con(r,re):
+#     res=[]
+#     res=r+re
+#     return res        
+# if __name__ == '__main__':
+#     r =[1,2,2,3,4,6,7,8,7,8,3,4]
+#     re=[2,3,4,5,6,12,23,34,45]
+#     print(con(r,re))
+
+# Write a Python program to sort a list of strings in alphabetical order.
+# def sorting(r):
+#     res=[]
+#     res=sorted(r)
+#     return res        
+# if __name__ == '__main__':
+#     r =["Harry","Ajay","ranvjay","suman"]
+#     print(sorting(r))
+
+# Write a Python program to find the index of an element in a tuple.
+# x=(2,3,4,5,6,7,8,9)
+# ele=3
+# indes=x.index(ele)
+# print(indes)
+
+# Write a Python program to remove a specific element from a list.
+# r =["Harry","Ajay","ranvijay","suman"]
+# x="Harry"
+# if x in r:
+#     lst=r.remove(x)
+# print(r)
+
+# Write a Python program to check if all elements in a list are the same.
+# def are_all_elements_same(numbers):
+#     first_element = numbers[0]
+#     for number in numbers:
+#         if number != first_element:
+#             return False
+#     return True
+
+# numbers = [5, 5, 5, 5, 5]
+# if are_all_elements_same(numbers):
+#     print("All elements in the list are the same.")
+# else:
+#     print("Not all elements in the list are the same.")
+
+# Write a Python program to find the largest element in a list.
+# def largest(r):
+#     res=max(r)
+#     return res     
+# if __name__ == '__main__':
+#     r =[1,5,6,5,7,8,9]
+#     print(largest(r))
+
+# Write a Python program to check if two strings are anagrams.
+
+
+str1="sten"
+str2="silent"
+str1=sorted(str1)
+str2=sorted(str2)
+if str1==str2:
+    print("Anagram")
+else:
+    print("Not Anagram")    
+
+
+
+
+# Write a Python program to calculate the sum of all the digits in a number.
+# def sum(r):
+#     sum=0
+#     while (r!=0):
+#         sum=sum+int(r%10)
+#         r=int(r/10)
+
+#     return sum            
+# if __name__ == '__main__':
+#     r =int(input())
+#     print(sum(r))
+
+# Write a Python program to find the common elements between two lists.
+# lst1=[1,8,9,0,5,6]
+# lst2=[1,9,5,6,7,0]
+# lst3=[value for value in lst1 if value in lst2]
+# print(lst3)
